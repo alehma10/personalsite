@@ -1,0 +1,118 @@
+body {
+	font-family: Cormorant;
+	font-size: 16px;
+	line-height: 1.5;
+	
+	background-color: #ffffff;
+	color: #333333;
+
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+b {
+  font-weight: bold;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 100;
+  font-family: 'Pinyon Script';
+  padding: 30px 20px 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+div.L-text a {
+  text-decoration: none;
+  color: #037220;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  vertical-align: middle;
+ 
+  width: 100%;
+  overflow: hidden;
+cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),auto;
+}
+
+div.left, div.right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+  height: 95vh;
+  border: 4px double #037220;
+  overflow:hidden;
+  margin: 0 5px 0 5px;
+  justify
+  float:  left;
+  }
+
+div.left img{
+  display: block;
+  max-height: 55vh;
+  max-width: 60%;
+  padding: 25px 20px 35px 20px;
+  margin-left: auto; 
+  margin-right: auto;
+  border-top: 0.5px solid #666666;
+}
+div.L-text {
+  display:  block;
+  bottom: 0;
+  margin: 0 10px 0 10px;
+  border:  none;
+  
+}
+
+div.left p{
+ font-family: Cormorant;
+  font-size:  18px;
+}
+div.left p{
+  text-align: justify;
+}
+
+
+
+
+div.right h1 {
+  padding: 100px 0 0 0;
+}
+div.column1 h1, div.column2 h1 {
+  padding: 20px 0 0 0;
+}
+div.right h2 {
+  display: inline-block;
+  font-family: Cormorant;
+  padding: 35px 0 12px 0;
+  border-bottom: 0.5px solid #666666;
+}
+
+
+div.column1, div.column2{
+  border:  none;
+}
+div.right h1{
+  font-weight: 100;
+}
+
+h3 {
+  display: block;
+  font-size: 17px;
+  text-align: right;
+  bottom: 0;
+}
+li { list-style-type: none;
+  font-weight: 700;
+  text-indent: 0.75em; 
+  font-size: 16px ;
+}
